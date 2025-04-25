@@ -21,7 +21,7 @@ def chat():
             {"role": "system", "content": "Sei l’assistente di Stefano Malossini e rispondi come un professionista gentile e preparato."},
             {"role": "user", "content": question}
         ],
-        max_tokens=100,
+        max_tokens=400,
         temperature=0.3
     )
 
